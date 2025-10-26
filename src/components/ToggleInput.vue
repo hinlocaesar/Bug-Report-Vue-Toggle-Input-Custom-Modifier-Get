@@ -1,10 +1,9 @@
 <script setup>
 const [toggleValue, modifiers] = defineModel({
   set(value) {
+  
     if (modifiers.customToggle) {
-      console.log("Hinlo",value)
-      if(value === true || value === 1){
-        console.log("true is called")
+      if(value == 1 || value == true){
         return 1
       }else{
         return 0
@@ -13,6 +12,9 @@ const [toggleValue, modifiers] = defineModel({
     return value
     
   },
+// get(value){
+//   // console.log(" get ",value)
+// }
 })
 </script>
 
