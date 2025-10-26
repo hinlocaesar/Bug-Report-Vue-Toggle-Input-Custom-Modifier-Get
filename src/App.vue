@@ -8,13 +8,6 @@ const toggledBinary = ref(0);
 <template>
   <div class="page">
     <div class="inner">
-      <section class="mb-5 inner">
-        <div>
-          <ToggleInput v-model="toggled" />
-        </div>
-
-        <p>Toggle value is: {{ toggled }}</p>
-      </section>
 
       <section class="inner">
         <div>

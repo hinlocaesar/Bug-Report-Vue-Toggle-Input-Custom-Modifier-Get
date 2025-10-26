@@ -12,6 +12,8 @@ const [toggleValue, modifiers] = defineModel({
     return value
     
   },
+
+//Important: bug occured here hide get code to replicate issue
 // get(value){
 //   // console.log(" get ",value)
 // }
