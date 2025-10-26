@@ -18,7 +18,7 @@ const toggledBinary = ref(0);
 
       <section class="inner">
         <div>
-          <ToggleInput v-model.binary="toggledBinary" />
+          <ToggleInput v-model.customToggle="toggledBinary" />
         </div>
 
         <p>Toggle Binary value is: {{ toggledBinary }}</p>
